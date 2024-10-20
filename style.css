@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clock-container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #61dafb;
+}
+
+.clock {
+    font-size: 4rem;
+    font-weight: bold;
+    background-color: rgba(97, 218, 251, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+}
+
+.clock:hover {
+    background-color: rgba(97, 218, 251, 0.5); 
+}
+
+
+
+
+
+
